@@ -1,7 +1,7 @@
 # Mesos Sandbox
 
 ## Purpose
-Supply a Mesos sandbox with some frameworks enabled. Currently Marathon and Jenkins are working.
+Supply a Mesos sandbox with some frameworks enabled running on CentOS 7.1. Currently Marathon and Jenkins are working. 
 
 NOTE: Requires Git, Vagrant and VirtualBox to run. Scripts will most likey only work on LINUX or MAC. NOT tested on Windows.
 
@@ -56,4 +56,4 @@ Marathon: http://192.168.56.101:8080
 
 
 
-## Useful Links 
+## Useful Links
