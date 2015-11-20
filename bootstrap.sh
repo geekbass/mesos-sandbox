@@ -105,7 +105,7 @@ echo "#########################"
 ORIG_MESOS_CLI=`which mesos`
 rm -rf $ORIG_MESOS_CLI
 pip install --upgrade pip
-pip uninstall mesos.cli
+pip uninstall -y mesos.cli
 pip install mesos.cli
 mesos config master zk://localhost:2181/mesos
 
