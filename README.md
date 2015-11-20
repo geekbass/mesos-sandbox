@@ -25,7 +25,7 @@ Mesos1 Node will also include the haproxy bridging script for scaling. It will a
 Clone the repo and run build.sh. Will most likely take some time to complete.
 
 ```bash
-git clone git@github.com:geekbass/mesos-sandbox.git
+git clone https://github.com/geekbass/mesos-sandbox.git
 ./build.sh
 ```
 
