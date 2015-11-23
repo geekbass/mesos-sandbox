@@ -53,7 +53,33 @@ Marathon: http://192.168.56.101:8080
 
 
 ## Some Tutorials
+Launching Services from this Repo
 
+```bash
+./launch.sh services/sample_docker.json
+```
+
+Get metrics on Apps (Json Format)
+
+```bash
+curl http://192.168.56.101:8080/metrics | python -m json.tool 
+```
+
+
+List of Apps or specific App specs
+
+```bash
+curl http://192.168.56.101:8080/v2/apps | python -m json.tool 
+
+curl http://192.168.56.101:8080/v2/apps/APPID | python -m json.tool
+```
+
+
+Destroy App
+
+```bash
+curl -X DELETE http://192.168.56.101:8080/v2/apps/APPID | python -m json.tool 
+```
 
 
 ## Useful Links
