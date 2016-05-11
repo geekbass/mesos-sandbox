@@ -16,9 +16,6 @@ vagrant up
 cd ..
 
 echo "Build of Cluster is Complete...."
-echo "Please see stash repo for other information/Tutorials/etc...."
-echo "https://stash.int.klarna.net/projects/NOB/repos/mesos-sandbox/browse/README.md"
-echo "Please reach out to Team Noble with any questions...."
 echo ""
 echo "List of Service URLs...."
 echo "Open the following in your Browser...."
