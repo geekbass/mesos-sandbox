@@ -82,4 +82,20 @@ curl -X DELETE http://192.168.56.101:8080/v2/apps/APPID | python -m json.tool
 ```
 
 
+
+## TO DOs
+Consul Cluster (Docker)
+
+Consul Template
+
+Registrator to Auto Register/Deregister Services
+
+Flannel Networking
+
+Spark
+
+K8s
+
+
+
 ## Useful Links
