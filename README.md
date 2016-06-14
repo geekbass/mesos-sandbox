@@ -86,7 +86,7 @@ curl -X DELETE http://192.168.56.101:8080/v2/apps/APPID | python -m json.tool
 ## TO DOs
 Consul Cluster (Docker)
 
-Consul Template
+Consul Template (Load Balancing)
 
 Registrator to Auto Register/Deregister Services
 
